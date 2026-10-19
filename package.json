@@ -1,0 +1,26 @@
+{
+  "name": "magnue-provenance-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A compact, source-derived showcase of tenant-scoped immutable provenance source versions.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "demo": "tsx src/demo.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "pg": "8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.6",
+    "@types/pg": "8.23.1",
+    "tsx": "4.20.6",
+    "typescript": "7.0.2",
+    "vitest": "5.0.1"
+  }
+}
